@@ -1,9 +1,9 @@
 package org.example;
 
 abstract class Hero implements HavingSuperAbility {
-    protected int health;
-    protected int damage;
-    protected String superAbility;
+     int health;
+     int damage;
+     String superAbility;
 
     public Hero(int health, int damage, String superAbility) {
         this.health = health;
